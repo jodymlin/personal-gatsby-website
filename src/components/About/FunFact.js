@@ -12,10 +12,10 @@ const styles = () => ({
 
 function FunFact({classes, title, description}) {
     return (
-        <div>
+        <>
             <Typography className={classes.title}>{title}</Typography>
             <Typography>{description}</Typography>
-        </div>
+        </>
     );
 }
 

@@ -1,15 +1,16 @@
 import React from "react"
-import { MuiThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
-
 import FactList from '../components/About/FactList'
+import Container from '@material-ui/core/Container'
 
-const themes = createMuiTheme({
-    typography: {
+import HeaderFooter from '../components/HeaderFooter/HeaderFooter'
+import PicBlurb from "../components/About/PicBlurb"
 
-    }
-});
 
 export default () => <div>
-    <FactList/>
+    <HeaderFooter>
+        <Container maxWidth='md'>
+            <PicBlurb/>
+            <FactList/>
+        </Container>
+    </HeaderFooter>
 </div>

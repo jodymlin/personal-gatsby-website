@@ -21,6 +21,7 @@ function FactList () {
     );
     return (
         <div>
+            <Typography variant='h1'>About Me</Typography>
             <Typography>Some fun facts about me...</Typography>
             {funFacts}
         </div>
