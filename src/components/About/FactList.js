@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Typography from '@material-ui/core/Typography'
 import FunFact from './FunFact'
 
@@ -15,13 +16,13 @@ const facts = [
 
 ];
 
+
 function FactList () {
     const funFacts = facts.map(o => 
         <FunFact key={o.title} {...o}/>
     );
     return (
         <div>
-            <Typography variant='h1'>About Me</Typography>
             <Typography>Some fun facts about me...</Typography>
             {funFacts}
         </div>
