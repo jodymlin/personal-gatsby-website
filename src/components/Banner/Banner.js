@@ -5,13 +5,21 @@ import taiwan from '../../media/taiwan.jpg'
 
 const styles = () => ({
     background: {
-        backgroundImage: `url(${taiwan})`
+        display: 'flex',
+        alignItems: 'center',
+        height: '200px',
+        backgroundImage: `url(${taiwan})`,
+        backgroundPosition: 'center'
+    },
+    overlay: {
+        //height: '200px'
     }
 });
 
 function Banner({classes}) {
     return(
         <section className={classes.background}>
+            <div className={classes.overlay}>This is a banner</div>
         </section>
     );
 }
