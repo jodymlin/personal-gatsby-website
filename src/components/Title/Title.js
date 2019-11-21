@@ -14,7 +14,7 @@ const styles = theme => ({
 function Title({classes, children}) {
     return (
         <div className={classes.title}>
-            <Typography variant='h1'>{children}</Typography>
+            <Typography variant='h4'>{children}</Typography>
         </div>
     );
 }

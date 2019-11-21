@@ -6,8 +6,9 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 
 const customTheme = createMuiTheme({
     typography: {
-        fontSize: '16px',
-        fontFamily: '"PT Serif", sans-serif'
+        fontSize: 14,
+        fontFamily: '"PT Serif", sans-serif',
+        
     }
 });
 

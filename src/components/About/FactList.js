@@ -12,6 +12,10 @@ const facts = [
     {
         title: `fact two`,
         description: `solar, moonbyul, wheein, and hwasa are members of mamamoo`
+    },
+    {
+        title: `erika`,
+        description: `wonderful`
     }
 
 ];
