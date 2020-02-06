@@ -5,6 +5,7 @@ import { MuiThemeProvider, createMuiTheme, responsiveFontSizes } from '@material
 import CssBaseline from '@material-ui/core/CssBaseline'
 
 import MenuBar from '../MenuBar/MenuBar'
+import Footer from '../Footer/Footer'
 
 const customTheme = createMuiTheme({
     typography: {
@@ -24,6 +25,7 @@ function HeaderFooter({children}) {
             </Helmet>
             <MenuBar/>
             {children}
+            <Footer/>
         </MuiThemeProvider>
     );
 }
