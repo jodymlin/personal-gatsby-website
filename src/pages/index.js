@@ -6,6 +6,7 @@ import Banner from '../components/Banner/Banner'
 import HeaderFooter from '../components/HeaderFooter/HeaderFooter'
 import PicBlurb from "../components/About/PicBlurb"
 import Resume from '../components/Resume/Resume'
+import ProjectPreview from '../components/Projects/ProjectPreview'
 import Title from '../components/Title/Title'
 
 
@@ -20,6 +21,9 @@ export default () => <div>
 
             <Title>Resume</Title>
             <Resume/>
+
+            <Title>Projects+More!</Title>
+            <ProjectPreview/>
         </Container>
     </HeaderFooter>
 </div>
