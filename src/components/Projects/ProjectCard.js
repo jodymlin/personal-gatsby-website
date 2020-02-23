@@ -4,14 +4,17 @@ import PropTypes from 'prop-types'
 
 import { Typography } from '@material-ui/core'
 
-const styles = () => ({
+const styles = theme => ({
     mediaWrapper: {
         width: '100%',
         maxHeight: '250px',
-        overflowY: 'hidden'
+        overflowY: 'hidden',
+        margin: theme.spacing (1, 0)
     },
     media: {
         width: '100%'
+    },
+    description: {
     }
 });
 
@@ -23,8 +26,8 @@ function ProjectCard({ classes, data }) {
             <div className={classes.mediaWrapper}>
                 <img src={media} className={classes.media}/>
             </div>
-            <div>
-                { description }
+            <div className={classes.description}>
+                <Typography>{ description }</Typography>
             </div>
         </div>
         

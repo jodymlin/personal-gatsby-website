@@ -37,19 +37,27 @@ function Banner({classes}) {
                     Jody Lin
                 </Typography>
                 <Grid container className={classes.contactItems}>
-                    <ContactItem>📧jody.m.lin@gmail.com</ContactItem>
-                    <ContactItem>📞(949)-377-5165</ContactItem>
+                    <ContactItem>
+                        <span role='img'>📧</span>
+                        jody.m.lin@gmail.com
+                    </ContactItem>
+                    <ContactItem>
+                        <span role='img'>📞</span>
+                        (949)-377-5165
+                    </ContactItem>
                     <ContactItem>
                         <Link href='https://github.com/jodymlin' rel="noopener noreferrer" target="_blank"
                         color='textPrimary'>
-                            💻github
+                            <span role='img'>💻</span>
+                            github
                         </Link>
                     </ContactItem>
                     <ContactItem>
                         <Link href='https://www.linkedin.com/in/jody-lin-a5b390172/' 
                             rel="noopener noreferrer" target="_blank"
                             color='textPrimary'>
-                            🌐linkedin
+                            <span role='img'>🌐</span>
+                            linkedin
                         </Link>
                     </ContactItem>
                 </Grid>
