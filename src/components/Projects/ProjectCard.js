@@ -2,7 +2,8 @@ import React from 'react'
 import { withStyles, makeStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types'
 
-import { Typography } from '@material-ui/core'
+import { IconButton, Typography } from '@material-ui/core'
+import GitHubIcon from '@material-ui/icons/GitHub'
 
 const styles = theme => ({
     mediaWrapper: {
@@ -13,6 +14,11 @@ const styles = theme => ({
     },
     description: {
         margin: theme.spacing (1, 0)
+    },
+    links: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center'
     }
 });
 
@@ -45,16 +51,23 @@ function CardMedia({ data }) {
 }
 
 function ProjectCard({ classes, data }) {
-    const { title, description} = data;
+    const { title, description, github } = data;
     return(
         <div>
-            <Typography variant='h6'>{title}</Typography>
+            <div className={classes.links}>
+                <Typography variant='h6'>{title}</Typography>
+                <IconButton disabled={!github} href={github} color='inherit'>
+                    <GitHubIcon/>
+                </IconButton>
+            </div>
             <div className={classes.mediaWrapper}>
                 <CardMedia data={data}/>
             </div>
+
             <div className={classes.description}>
                 <Typography>{ description }</Typography>
             </div>
+
         </div>
         
     )

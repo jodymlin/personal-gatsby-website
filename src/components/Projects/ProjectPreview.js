@@ -11,6 +11,7 @@ import myCarDemo from '../../media/mycar_demo.mp4'
 const projects = [
     /*
         title : 'Project Title',
+        github: 'https://github.com/jodymlin',
         media: placeholder,
         mediaType: 'img',
         description: `the quick brown fox jumped over the lazy dog 
@@ -21,6 +22,7 @@ const projects = [
     */
     {
         title: 'UCLA ACM Hack Website',
+        github: 'https://github.com/uclaacm/hack.uclaacm.com',
         media: hackWebsite,
         mediaType: 'img',
         description: `UCLA ACM Hack's website built 
@@ -30,6 +32,7 @@ const projects = [
     },
     {
         title: 'Sensortile Snake',
+        github: 'https://github.com/jodymlin/sensortile_snake',
         media: snakeDemo,
         mediaType: 'mp4',
         description: `Final Project for Engr 96C. A take on the
@@ -39,6 +42,7 @@ const projects = [
     },
     {
         title: 'MyCar App',
+        github: 'https://github.com/jodymlin/car_app',
         media: myCarDemo,
         mediaType: 'mp4',
         description: `An app created with React Native at LAHacks 
@@ -48,6 +52,7 @@ const projects = [
     },
     {
         title: 'Bows and Arrows',
+        github: null,
         media: 'https://www.youtube.com/embed/yYe7Sl0CTTw',
         mediaType: 'youtube',
         description: `Throwback to 11-year-old me living out my dreams 
