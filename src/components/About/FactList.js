@@ -24,7 +24,7 @@ const facts = [
         description: `I am currently the Vice President of UCLA ACM Hack and 
         have taught Python, Web Dev, and Android Mobile development in our workshops!
         I also used to be a Code Coach at theCoderSchool where I taught young kids
-        how to programming with Python, HTML/CSS, and Scratch.`
+        how to program in Python, HTML/CSS, and Scratch.`
     }
 
 ];
