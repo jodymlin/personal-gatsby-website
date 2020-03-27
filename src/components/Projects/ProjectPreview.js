@@ -63,7 +63,7 @@ const projects = [
 
 const useGridStyle = makeStyles(theme =>({
     container: {
-        margin: theme.spacing(0, 0, 3, 0)
+        //margin: theme.spacing(0, 0, 3, 0)
     }
 }));
 

@@ -13,7 +13,7 @@ const styles = theme => ({
         margin: theme.spacing (1, 0)
     },
     description: {
-        margin: theme.spacing (1, 0)
+        //margin: theme.spacing (1, 0)
     },
     links: {
         display: 'flex',
@@ -56,7 +56,7 @@ function ProjectCard({ classes, data }) {
         <div>
             <div className={classes.links}>
                 <Typography variant='h6'>{title}</Typography>
-                <IconButton disabled={!github} href={github} color='inherit'>
+                <IconButton edge="end" disabled={!github} href={github} color='inherit'>
                     <GitHubIcon/>
                 </IconButton>
             </div>
