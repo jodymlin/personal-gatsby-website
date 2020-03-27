@@ -1,6 +1,10 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import { Typography, Grid, Link } from '@material-ui/core'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
+import MailOutlineIcon from '@material-ui/icons/MailOutline'
 
 import taiwan from '../../media/taiwan.jpg'
 
@@ -23,12 +27,17 @@ const styles = theme => ({
     },
     contactItems: {
         padding: theme.spacing(1.5, 0)
+    }, 
+    item: {
+        display: 'flex',
+        justifyContent: 'center',
+        padding: theme.spacing(0.5, 0)
     }
 });
 
 function Banner({classes}) {
-    const ContactItem = ({children}) => <Grid item sm={3} xs={12}>
-            <Typography align='center'>{children}</Typography>
+    const ContactItem = ({children}) => <Grid item sm={3} xs={12} className={classes.item}>
+            {children}
         </Grid>
     return(
         <section className={classes.background}>
@@ -38,26 +47,26 @@ function Banner({classes}) {
                 </Typography>
                 <Grid container className={classes.contactItems}>
                     <ContactItem>
-                        <span role='img'>📧</span>
-                        jody.m.lin@gmail.com
+                        <MailOutlineIcon />
+                        <Typography align='center'> jody.m.lin@gmail.com </Typography>
                     </ContactItem>
                     <ContactItem>
-                        <span role='img'>📞</span>
-                        (949)-377-5165
+                        <PhoneAndroidIcon />
+                        <Typography align='center'> (949) 377-5165 </Typography>
                     </ContactItem>
                     <ContactItem>
                         <Link href='https://github.com/jodymlin' rel="noopener noreferrer" target="_blank"
-                        color='textPrimary'>
-                            <span role='img'>💻</span>
-                            github
+                        color='textPrimary' className={classes.item}>
+                            <GitHubIcon />
+                            <Typography align='center'>github</Typography>
                         </Link>
                     </ContactItem>
                     <ContactItem>
                         <Link href='https://www.linkedin.com/in/jody-lin-a5b390172/' 
                             rel="noopener noreferrer" target="_blank"
-                            color='textPrimary'>
-                            <span role='img'>🌐</span>
-                            linkedin
+                            color='textPrimary' className={classes.item}>
+                            <LinkedInIcon />
+                            <Typography align='center'>linkedin</Typography>
                         </Link>
                     </ContactItem>
                 </Grid>
