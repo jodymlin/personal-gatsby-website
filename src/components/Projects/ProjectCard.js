@@ -12,12 +12,18 @@ const styles = theme => ({
         margin: theme.spacing (1, 0)
     },
     description: {
+        margin: theme.spacing (1, 0)
     }
 });
 
 const useCardStyles = makeStyles({
-    media: {
-        width: '100%'
+    imgMedia: {
+        width: '100%',
+        height: 'inherit'
+    },
+    vidMedia: {
+        width: '100%',
+        maxHeight: 'inherit'
     }
 });
 
@@ -25,13 +31,13 @@ function CardMedia({ data }) {
     const { media, mediaType } = data;
     const classes = useCardStyles();
     if (mediaType === 'img') {
-        return <img src={media} className={classes.media}/>
+        return <img src={media} className={classes.imgMedia}/>
     }
     else if (mediaType === 'mp4') {
-        return <video src={media} height='100%' controls muted></video>
+        return <video src={media} className={classes.vidMedia} controls muted></video>
     }
     else if (mediaType === 'youtube') {
-        return <iframe src={media} height='100%' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        return <iframe src={media} width='100%' height='250px' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     }
     else {
         return <Typography>Unknown media type</Typography>

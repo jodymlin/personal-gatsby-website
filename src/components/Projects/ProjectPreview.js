@@ -51,7 +51,7 @@ const projects = [
         title: 'MyCar App',
         media: myCarDemo,
         mediaType: 'mp4',
-        description: `An app created with React Natvie at LAHacks 
+        description: `An app created with React Native at LAHacks 
         that provides a convenient place containing all information
         about your car. Implemented the Google Maps feature that 
         allows users to track and time where  and when they parked their car. `
