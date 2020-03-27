@@ -1,7 +1,6 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
-import jodyskippy from '../../media/jody_skippy.jpg'
 import jodyjapan from '../../media/jody_japan.jpg'
 
 const styles = theme => ({
@@ -33,9 +32,9 @@ const styles = theme => ({
     }
 });
 
-const blurb = `I am a Computer Science major at UCLA with 
-    a dream of making positive impact on the world!
-    Check out my Projects+More! section to check out what I've done!`
+const blurb = `I am a Computer Science major at UCLA who loves
+to learn and fiddle with things in my free time!
+Check out my Projects+More! section to check out what I've done!`
 
 function PicBlurb({classes}) {
     return (

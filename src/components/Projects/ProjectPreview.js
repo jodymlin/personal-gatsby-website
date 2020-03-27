@@ -3,13 +3,13 @@ import { Grid } from '@material-ui/core'
 import PropTypes from 'prop-types'
 
 import ProjectCard from './ProjectCard'
-import placeholder from '../../media/placeholder.jpg'
+//import placeholder from '../../media/placeholder.jpg'
 import hackWebsite from '../../media/hack_website.png'
 import snakeDemo from '../../media/snake_demo.mp4'
 import myCarDemo from '../../media/mycar_demo.mp4'
 
 const projects = [
-    {
+    /*
         title : 'Project Title',
         media: placeholder,
         mediaType: 'img',
@@ -18,17 +18,7 @@ const projects = [
                         the quick brown fox jumped over the lazy dog. 
                         the quick brown fox jumped over the lazy dog.
                         the quick brown fox jumped over the lazy dog.`
-    },
-    {
-        title : 'Another Project',
-        media: placeholder,
-        mediaType: 'img',
-        description: `the quick brown fox jumped over the lazy dog 
-                        the quick brown fox jumped over the lazy dog. 
-                        the quick brown fox jumped over the lazy dog. 
-                        the quick brown fox jumped over the lazy dog.
-                        the quick brown fox jumped over the lazy dog.`
-    },
+    */
     {
         title: 'UCLA ACM Hack Website',
         media: hackWebsite,

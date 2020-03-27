@@ -35,12 +35,12 @@ const styles = theme => ({
     }
 });
 
-function Banner({classes}) {
+function Banner({classes, ...props}) {
     const ContactItem = ({children}) => <Grid item sm={3} xs={12} className={classes.item}>
             {children}
         </Grid>
     return(
-        <section className={classes.background}>
+        <section className={classes.background} {...props}>
             <div className={classes.overlay}>
                 <Typography variant='h3' component='h1' align='center' className={classes.title}>
                     Jody Lin
