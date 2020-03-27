@@ -1,5 +1,6 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types'
 
 import ProjectCard from './ProjectCard'
@@ -60,9 +61,17 @@ const projects = [
     },
 ];
 
-function ProjectPreview({ classes }) {
+const useGridStyle = makeStyles(theme =>({
+    container: {
+        margin: theme.spacing(0, 0, 3, 0)
+    }
+}));
 
-    return <Grid container spacing={5}>
+function ProjectPreview() {
+
+    const classes = useGridStyle();
+
+    return <Grid container spacing={5} className={classes.container}>
             {projects.map( o => 
                 <Grid item xs={12} sm={6} md={6} id={o.title}>
                     <ProjectCard data={o} />
