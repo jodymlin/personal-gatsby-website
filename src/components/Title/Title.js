@@ -1,22 +1,24 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {withStyles} from '@material-ui/core/styles'
 
 import Typography from '@material-ui/core/Typography'
 
 const styles = theme => ({
     title: {
-        margin: 'auto',
-        padding: theme.spacing(3),
-        width: 'fit-content'
+        padding: theme.spacing(5, 0)
     }
 });
 
-function Title({classes, children}) {
+function Title({classes, children, ...props}) {
     return (
-        <div className={classes.title}>
-            <Typography variant='h4'>{children}</Typography>
-        </div>
+        <Typography variant='h4' align='center' className={classes.title} {...props}>{children}</Typography>
     );
+}
+
+Title.propTypes = {
+    classes: PropTypes.object.isRequired,
+    children: PropTypes.string
 }
 
 export default withStyles(styles)(Title);
