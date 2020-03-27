@@ -33,7 +33,8 @@ const styles = theme => ({
 });
 
 const blurb = `I am a Computer Science major at UCLA who loves
-to learn and fiddle with things in my free time!
+to learn and fiddle with things in my free time! I also have
+a passion for teaching and spreading the love for CS :)
 Check out my Projects+More! section to check out what I've done!`
 
 function PicBlurb({classes}) {
