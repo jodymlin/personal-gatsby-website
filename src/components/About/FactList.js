@@ -6,16 +6,24 @@ import FunFact from './FunFact'
 
 const facts = [ 
     {
-        title: `true fact`,
-        description: `jody loves twice, mamamoo, and blackpink`
+        title: `Hometown`,
+        description: `Irvine, California`
     },
     {
-        title: `fact two`,
-        description: `solar, moonbyul, wheein, and hwasa are members of mamamoo`
+        title: `Hobbies`,
+        description: `Playing guitar and going on hikes!`
     },
     {
-        title: `erika`,
-        description: `wonderful`
+        title: `Languages`,
+        description: `Programming languages, but also speaking! 
+        I love learning to speak new languages and am currently learning Mandarin!
+        Future languages to learn include Japanese, Korean, and French.`
+    },
+    {
+        title: `Teaching`,
+        description: `I love spreading the love for Computer Science! I am currently
+        the Vice President of UCLA ACM Hack and have taught Python, Web Dev, and Android
+        Mobile development in our workshops!`
     }
 
 ];

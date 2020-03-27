@@ -2,6 +2,7 @@ import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import jodyskippy from '../../media/jody_skippy.jpg'
+import jodyjapan from '../../media/jody_japan.jpg'
 
 const styles = theme => ({
     container: {
@@ -39,7 +40,7 @@ const blurb = `I am a Computer Science major at UCLA with
 function PicBlurb({classes}) {
     return (
     <div className={classes.container}>
-        <img className={classes.pic} src={jodyskippy} alt=''/>
+        <img className={classes.pic} src={jodyjapan} alt=''/>
         <div className={classes.blurb}>
             <Typography>{blurb}</Typography>
         </div>
