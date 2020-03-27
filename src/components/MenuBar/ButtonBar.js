@@ -24,9 +24,9 @@ class ButtonBar extends React.Component{
         return (
             <>
             {/* TODO: add link to new pages */}
-            <MenuButton>About</MenuButton>
-            <MenuButton>Resume</MenuButton>
-            <MenuButton>Projects+More!</MenuButton>
+            <MenuButton to={'#about-me'}>About</MenuButton>
+            <MenuButton to={'#resume'}>Resume</MenuButton>
+            <MenuButton to={'#projects-and-more'}>Projects+More!</MenuButton>
             </>
         );
     }

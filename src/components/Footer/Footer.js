@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
+import { Link } from 'gatsby'
 
-import { AppBar, Button, Link, Toolbar, Typography } from '@material-ui/core'
+import { AppBar, Button, Toolbar, Typography } from '@material-ui/core'
 
 const styles = () => ({
     footer: {
@@ -25,7 +26,7 @@ const styles = () => ({
 function Footer({classes}) {
     
     const MenuButton = ({to, ...props}) => 
-    <Link underline='none' to={to} className={classes.link}>
+    <Link to={to} className={classes.link}>
         <Button {...props}/>
     </Link>
 
@@ -35,7 +36,7 @@ function Footer({classes}) {
                 <div className={classes.footerItem}>
                     <Typography>© Jody Lin</Typography>
                 </div>
-                <MenuButton>Contact</MenuButton>
+                <MenuButton to={'/'}>Contact</MenuButton>
             </Toolbar>
         </AppBar>
     )

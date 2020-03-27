@@ -3,7 +3,9 @@ import { withStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types'
 
 import { AppBar, Button, Collapse, Toolbar, Typography } from '@material-ui/core'
+import MenuIcon from '@material-ui/icons/Menu'
 import ButtonBar from './ButtonBar'
+
 
 const styles = theme => ({
     toolbar: {
@@ -52,7 +54,9 @@ function MenuBar({ classes }) {
                     <ButtonBar />
                 </div>
                 <div className={classes.mobileBtn}>
-                    <Button onClick={toggleMenu}>Temp</Button>
+                    <Button onClick={toggleMenu}>
+                        <MenuIcon/>
+                    </Button>
                 </div>
             </Toolbar>
         </AppBar>

@@ -13,16 +13,16 @@ import Title from '../components/Title/Title'
 export default () => <div>
     <HeaderFooter>
         <Container maxWidth='md'>
-            <Banner/>
+            <Banner id='contact'/>
             <PicBlurb/>
 
-            <Title>About Me</Title>
+            <Title id='about-me'>About Me</Title>
             <FactList/>
 
-            <Title>Resume</Title>
+            <Title id='resume'>Resume</Title>
             <Resume/>
 
-            <Title>Projects+More!</Title>
+            <Title id='projects-and-more'>Projects+More!</Title>
             <ProjectPreview/>
         </Container>
     </HeaderFooter>
