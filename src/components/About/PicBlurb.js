@@ -1,5 +1,7 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
+import { graphql, useStaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
 import Typography from '@material-ui/core/Typography'
 import jodyjapan from '../../media/jody_japan.jpg'
 
@@ -38,9 +40,20 @@ a passion for teaching and spreading the love for CS :)
 Check out my Projects+More! section to check out what I've done!`
 
 function PicBlurb({classes}) {
+    const pic = useStaticQuery(graphql`
+        query {
+        file(relativePath: { eq: "jody_japan.jpg" }) {
+            childImageSharp {
+                fluid {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        }
+    `);
     return (
     <div className={classes.container}>
-        <img className={classes.pic} src={jodyjapan} alt=''/>
+        <Img className={classes.pic} fluid={pic.file.childImageSharp.fluid} alt=''/>
         <div className={classes.blurb}>
             <Typography>{blurb}</Typography>
         </div>

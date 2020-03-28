@@ -1,12 +1,13 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import { Typography, Grid, Link } from '@material-ui/core'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 
-import taiwan from '../../media/taiwan.jpg'
 import japanwalk from '../../media/japanwalk.jpg'
 
 const styles = theme => ({
@@ -44,13 +45,26 @@ const styles = theme => ({
     }
 });
 
+
+
 function Banner({classes, ...props}) {
+    const myImg = useStaticQuery(graphql`
+        query {
+        file(relativePath: { eq: "japanwalk.jpg" }) {
+            childImageSharp {
+                fluid {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        }
+    `);
     const ContactItem = ({children}) => <Grid item sm={3} xs={12} className={classes.item}>
             {children}
         </Grid>
     return( <>
         <div className={classes.background}>
-            <img src={japanwalk} className={classes.backgroundImage}/>
+            <Img fluid={myImg.file.childImageSharp.fluid} className={classes.backgroundImage}/>
             <div className={classes.overlay}>
             <Typography variant='h3' component='h1' align='center' className={classes.title}>
                 Jody Lin
