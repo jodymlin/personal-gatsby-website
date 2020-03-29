@@ -35,7 +35,10 @@ const styles = theme => ({
         position: 'absolute'
     },
     contactItems: {
-        padding: theme.spacing(1.5, 0)
+        padding: theme.spacing(1.5, 0),
+        [theme.breakpoints.down('xs')]: {
+            padding: 0
+        }
     }, 
     item: {
         display: 'flex',
