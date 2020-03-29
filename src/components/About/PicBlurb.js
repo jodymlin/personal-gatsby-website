@@ -3,7 +3,6 @@ import { withStyles } from '@material-ui/core/styles'
 import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import Typography from '@material-ui/core/Typography'
-import jodyjapan from '../../media/jody_japan.jpg'
 
 const styles = theme => ({
     container: {

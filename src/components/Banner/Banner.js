@@ -8,7 +8,6 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 
-import japanwalk from '../../media/japanwalk.jpg'
 
 const styles = theme => ({
     title: {
