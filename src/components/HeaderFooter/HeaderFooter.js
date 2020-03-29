@@ -22,6 +22,7 @@ function HeaderFooter({children}) {
             <CssBaseline/>
             <Helmet>
                 <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet"></link>
+                <title>Jody Lin</title>
             </Helmet>
             <MenuBar/>
             {children}
