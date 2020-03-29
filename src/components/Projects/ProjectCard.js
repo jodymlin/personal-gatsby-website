@@ -34,16 +34,16 @@ const useCardStyles = makeStyles({
 });
 
 function CardMedia({ data }) {
-    const { media, mediaType } = data;
+    const { media, mediaType, title } = data;
     const classes = useCardStyles();
     if (mediaType === 'img') {
-        return <img src={media} className={classes.imgMedia}/>
+        return <img src={media} className={classes.imgMedia} alt={title}/>
     }
     else if (mediaType === 'mp4') {
         return <video src={media} className={classes.vidMedia} controls muted></video>
     }
     else if (mediaType === 'youtube') {
-        return <iframe src={media} width='100%' height='250px' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        return <iframe src={media} title={title} width='100%' height='250px' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     }
     else {
         return <Typography>Unknown media type</Typography>
