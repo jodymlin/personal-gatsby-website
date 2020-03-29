@@ -71,7 +71,7 @@ function ProjectPreview() {
 
     const classes = useGridStyle();
 
-    return <Grid container spacing={5} className={classes.container}>
+    return <Grid container spacing={4} className={classes.container}>
             {projects.map( o => 
                 <Grid item xs={12} sm={6} md={6} id={o.title}>
                     <ProjectCard data={o} />
