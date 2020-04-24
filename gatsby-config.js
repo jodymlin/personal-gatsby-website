@@ -9,6 +9,12 @@ module.exports = {
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/media/`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Jody Lin`,
@@ -22,11 +28,5 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/media/`,
-      },
-    },
   ],
 }
