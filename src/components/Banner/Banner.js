@@ -55,7 +55,11 @@ function Banner({classes, ...props}) {
         file(relativePath: { eq: "japanwalk.jpg" }) {
             childImageSharp {
                 fluid {
-                    ...GatsbyImageSharpFluid
+                    base64
+                    aspectRatio
+                    src
+                    srcSet
+                    sizes
                 }
             }
         }

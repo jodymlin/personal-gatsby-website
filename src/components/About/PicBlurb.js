@@ -44,7 +44,11 @@ function PicBlurb({classes}) {
         file(relativePath: { eq: "jody_japan.jpg" }) {
             childImageSharp {
                 fluid {
-                    ...GatsbyImageSharpFluid
+                    base64
+                    aspectRatio
+                    src
+                    srcSet
+                    sizes
                 }
             }
         }
