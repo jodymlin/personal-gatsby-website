@@ -12,13 +12,14 @@ const usePhotoListStyles = makeStyles(theme => ({
     picWrapper: {
         display: 'flex',
         justifyContent: 'center',
-        maxHeight: '500px',
+        maxHeight: '300px',
+        //overflowX: 'hidden',
         overflowY: 'hidden'
     },
     pic: {
         //margin: theme.spacing(2),
         margin: 'auto',
-        maxWidth: '100%'
+        maxHeight: '100%',
     }
 }));
 
@@ -59,7 +60,7 @@ function PhotoList() {
         <Typography variant='h5' align='center'>Country Here</Typography>
         <Typography align='center'>Winter 2020</Typography>
 
-        <Grid container spacing={4} alignItems='center'>
+        <Grid container spacing={3} alignItems='center'>
             { /*
         <Grid item xs={12} sm={6} >
                 <div className={classes.picWrapper}>
@@ -74,6 +75,7 @@ function PhotoList() {
                 <div className={classes.picWrapper}>
                     <Img fluid={image.node.childImageSharp.fluid} 
                     alt={image.node.base.split(".")[0]}
+                    style={{width: "100%"}}
                     justify='center' className={classes.pic} />
                 </div>
             </Grid>
