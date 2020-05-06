@@ -1,13 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import { Typography, Grid, Link } from '@material-ui/core'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid'
-import MailOutlineIcon from '@material-ui/icons/MailOutline'
-
+import { Typography } from '@material-ui/core'
 
 const styles = theme => ({
     title: {
@@ -33,23 +29,11 @@ const styles = theme => ({
         padding: theme.spacing(1.5, 0),
         backgroundColor: `rgb(255, 255, 255, 0.7)`,
         position: 'absolute'
-    },
-    contactItems: {
-        padding: theme.spacing(1.5, 0),
-        [theme.breakpoints.down('xs')]: {
-            padding: 0
-        }
-    }, 
-    item: {
-        display: 'flex',
-        justifyContent: 'center',
-        padding: theme.spacing(0.5, 0)
     }
 });
 
 
-
-function Banner({classes, ...props}) {
+function Banner({classes, children, ...props }) {
     const myImg = useStaticQuery(graphql`
         query {
         file(relativePath: { eq: "japanwalk.jpg" }) {
@@ -65,46 +49,20 @@ function Banner({classes, ...props}) {
         }
         }
     `);
-    const ContactItem = ({children}) => <Grid item sm={3} xs={12} className={classes.item}>
-            {children}
-        </Grid>
-    return( <>
-        <div className={classes.background}>
-            <Img fluid={myImg.file.childImageSharp.fluid} className={classes.backgroundImage}/>
-            <div className={classes.overlay}>
+
+    return <div className={classes.background} {...props}>
+        <Img fluid={myImg.file.childImageSharp.fluid} className={classes.backgroundImage}/>
+        <div className={classes.overlay}>
             <Typography variant='h3' component='h1' align='center' className={classes.title}>
-                Jody Lin
+                {props.title}
             </Typography>
-            <Grid container className={classes.contactItems}>
-                <ContactItem>
-                    <MailOutlineIcon />
-                    <Typography align='center'> jody.m.lin@gmail.com </Typography>
-                </ContactItem>
-                <ContactItem>
-                    <PhoneAndroidIcon />
-                    <Typography align='center'> (949) 377-5165 </Typography>
-                </ContactItem>
-                <ContactItem>
-                    <Link href='https://github.com/jodymlin' rel="noopener noreferrer" target="_blank"
-                    color='textPrimary' className={classes.item}>
-                        <GitHubIcon />
-                        <Typography align='center'>github</Typography>
-                    </Link>
-                </ContactItem>
-                <ContactItem>
-                    <Link href='https://www.linkedin.com/in/jody-lin-a5b390172/' 
-                        rel="noopener noreferrer" target="_blank"
-                        color='textPrimary' className={classes.item}>
-                        <LinkedInIcon />
-                        <Typography align='center'>linkedin</Typography>
-                    </Link>
-                </ContactItem>
-            </Grid>
+            {children}
         </div>
-        </div>
-        </>
-    );
+    </div>
 }
 
+Banner.propTypes = {
+    children: PropTypes.node.isRequired
+}
 
 export default withStyles(styles)(Banner);
