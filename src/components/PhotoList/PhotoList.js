@@ -3,34 +3,41 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { makeStyles } from '@material-ui/styles'
 import { Grid, Typography }from '@material-ui/core'
-
-import dongo from '../../media/japan/dongo.jpg'
-import okonomiyaki from '../../media/japan/okonomiyaki.jpg'
-
+import Title from '../Title/Title'
 
 const usePhotoListStyles = makeStyles(theme => ({
     picWrapper: {
         display: 'flex',
         justifyContent: 'center',
         maxHeight: '300px',
-        //overflowX: 'hidden',
         overflowY: 'hidden'
     },
     pic: {
-        //margin: theme.spacing(2),
         margin: 'auto',
-        maxHeight: '100%',
+        maxWidth: '100%',
+    },
+    header: {
+        padding: theme.spacing(2)
+    },
+    date: {
+        padding: theme.spacing(1)
+    },
+    blurb: {
+        margin: theme.spacing(0, 0, 4, 0)
     }
 }));
 
-const pics = [
-    dongo,
-    okonomiyaki
-];
+const japanBlurb = {
+    country: 'Japan',
+    date: 'December 2019',
+    blurb: `Here are some fun memories from my week-long 
+    trip to Tokyo. Trip highlights include Mount Fuji, 
+    lots of good food, and quality time spent with 
+    three of my favorite people.`
+};
 
-
+/* TODO: find way to do multiple sections & add Taiwan images*/
 function PhotoList() {
-    /* TODO: this is all broken */
     const data = useStaticQuery(graphql`
     query {
         allFile(filter: {extension: {
@@ -57,8 +64,17 @@ function PhotoList() {
     
     const classes = usePhotoListStyles();
     return <>
-        <Typography variant='h5' align='center'>Country Here</Typography>
-        <Typography align='center'>Winter 2020</Typography>
+        <Title>
+            {japanBlurb.country}
+        </Title>
+        <div className={classes.blurb}> 
+        <Typography variant='h6' align='center'>
+            {japanBlurb.date}
+        </Typography>
+        <Typography align='center'>
+            {japanBlurb.blurb}
+        </Typography> 
+        </div>
 
         <Grid container spacing={3} alignItems='center'>
             { /*
