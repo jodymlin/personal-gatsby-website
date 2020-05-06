@@ -1,18 +1,30 @@
 import React from 'react'
 import { Container, Typography } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
 import HeaderFooter from '../components/HeaderFooter/HeaderFooter'
-import Title from '../components/Title/Title'
-
 import PhotoList from '../components/PhotoList/PhotoList'
+import Banner from '../components/Banner/Banner'
 
+const useTravelStyles = makeStyles( theme => ({
+    caption: {
+        padding: theme.spacing(3, 0)
+    }
+}));
 
-export default () => <HeaderFooter>
-    <Container maxWidth='md'>
-        <Title>My Travels!</Title>
-        <Typography align='center'>
-            Here are some pictures from the amazing places I have traveled to :)
-        </Typography>
+function Travel() {
+    const classes = useTravelStyles();
 
-        <PhotoList />
-    </Container>
-</HeaderFooter>
+    return <HeaderFooter>
+        <Container maxWidth='md'>
+            <Banner title='My Travels!'>
+                <Typography align='center' className={classes.caption}>
+                    Here are some pictures from the amazing places I have traveled to :)
+                </Typography>
+            </Banner>
+        
+            <PhotoList />
+        </Container>
+    </HeaderFooter>
+}
+
+export default Travel;
