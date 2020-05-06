@@ -30,8 +30,8 @@ const usePhotoListStyles = makeStyles(theme => ({
 const japanBlurb = {
     country: 'Japan',
     date: 'December 2019',
-    blurb: `Here are some fun memories from my week-long 
-    trip to Tokyo. Trip highlights include Mount Fuji, 
+    blurb: `Some fun memories from my week-long 
+    trip to Tokyo! Trip highlights include Mount Fuji, 
     lots of good food, and quality time spent with 
     three of my favorite people.`
 };
