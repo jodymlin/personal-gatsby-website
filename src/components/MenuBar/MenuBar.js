@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types'
-
+import { Link } from 'gatsby'
 import { AppBar, Button, Collapse, Toolbar, Typography } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import ButtonBar from './ButtonBar'
@@ -46,7 +46,9 @@ function MenuBar({ classes }) {
         <>
         <AppBar position='sticky' color='inherit'>
             <Toolbar className={classes.toolbar}>
-                <Typography variant='h6'>Jody Lin</Typography>
+                <Link to={'/'} style={{ textDecoration: 'none', color: 'black' }}>
+                    <Typography variant='h6'>Jody Lin</Typography>
+                </Link>
                 <div className={classes.desktopMenu}>
                     {/* <Button>About</Button>
                     <Button>Resume</Button>

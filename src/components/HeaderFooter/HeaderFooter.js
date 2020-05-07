@@ -12,11 +12,16 @@ const customTheme = createMuiTheme({
         fontSize: 14,
         fontFamily: '"PT Serif", sans-serif',
         
+    },
+    palette: {
+        primary: {
+            main: '#ff867d'
+        }
     }
 });
 
 
-function HeaderFooter({children}) {
+function HeaderFooter({children, ...props}) {
     return (
         <MuiThemeProvider theme={responsiveFontSizes(customTheme)}>
             <CssBaseline/>
@@ -24,7 +29,7 @@ function HeaderFooter({children}) {
                 <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet"></link>
                 <title>Jody Lin</title>
             </Helmet>
-            <MenuBar/>
+            <MenuBar {...props}/>
             {children}
             <Footer/>
         </MuiThemeProvider>

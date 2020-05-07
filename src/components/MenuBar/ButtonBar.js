@@ -27,6 +27,7 @@ class ButtonBar extends React.Component{
             <MenuButton to={'#about-me'}>About</MenuButton>
             <MenuButton to={'#resume'}>Resume</MenuButton>
             <MenuButton to={'#projects-and-more'}>Projects+More!</MenuButton>
+            <MenuButton to={'/travel'}>Travel</MenuButton>
             </>
         );
     }
