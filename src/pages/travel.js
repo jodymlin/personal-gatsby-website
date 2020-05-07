@@ -29,9 +29,6 @@ function ScrollTop(props) {
 
     const handleClick = (event) => {
         const anchor = (event.target.ownerDocument || document).querySelector('#back-to-top-anchor');
-        console.log("clicked");
-        console.log(anchor);
-        // TODO: this anchor is undefined right now
         if (anchor) {
             anchor.scrollIntoView({ behavior: 'smooth', block: 'center'});
         }
