@@ -5,10 +5,11 @@ import { Link } from 'gatsby'
 
 import { AppBar, Button, Toolbar, Typography } from '@material-ui/core'
 
-const styles = () => ({
+const styles = theme => ({
     footer: {
         top: 'auto',
-        bottom: 0
+        bottom: 0,
+        margin: theme.spacing(4, 0, 0, 0)
     },
     toolbar: {
         display: 'flex',
