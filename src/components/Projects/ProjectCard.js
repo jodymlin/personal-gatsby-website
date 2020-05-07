@@ -43,7 +43,7 @@ function CardMedia({ data }) {
         return <video src={media} className={classes.vidMedia} controls muted></video>
     }
     else if (mediaType === 'youtube') {
-        return <iframe src={media} title={title} width='100%' height='250px' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        return <iframe src={media} title={title} width='100%' height='250px' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     }
     else {
         return <Typography>Unknown media type</Typography>

@@ -32,7 +32,7 @@ function Footer({classes}) {
     </Link>
 
     return (
-        <AppBar color='inherit' position='relative' elevation='0' className={classes.footer}>
+        <AppBar color='inherit' position='relative' elevation={0} className={classes.footer}>
             <Toolbar className={classes.toolbar}>
                 <div className={classes.footerItem}>
                     <Typography>© Jody Lin</Typography>

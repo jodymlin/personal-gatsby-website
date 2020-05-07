@@ -1,7 +1,6 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import PropTypes from 'prop-types'
 
 import ProjectCard from './ProjectCard'
 //import placeholder from '../../media/placeholder.jpg'
@@ -73,16 +72,12 @@ function ProjectPreview() {
 
     return <Grid container spacing={4} className={classes.container}>
             {projects.map( o => 
-                <Grid item xs={12} sm={6} md={6} id={o.title}>
+                <Grid item xs={12} sm={6} md={6} id={o.title} key={o.title}>
                     <ProjectCard data={o} />
                 </Grid>
             )}
         </Grid>
         
-}
-
-ProjectPreview.propTypes = {
-    classes: PropTypes.object.isRequired
 }
 
 export default ProjectPreview;
