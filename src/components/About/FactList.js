@@ -14,9 +14,10 @@ const facts = [
   },
   {
     title: `Languages`,
-    description: `Programming languages, but also speaking! 
-        I love learning to speak new languages and am currently learning Mandarin!
-        Future languages to learn include Japanese, Korean, and French.`,
+    description: `Programming languages, but also speaking! I love learning to 
+        speak new languages and am currently learning Mandarin and Korean!
+        In the future, I plan to also learn Japanese. Also discovered I have a love
+        for linguistics and enjoy taking linguistic classes at school. `,
   },
   {
     title: `Teaching`,
@@ -25,6 +26,14 @@ const facts = [
         I also used to be a Code Coach at theCoderSchool where I taught young kids
         how to program in Python, HTML/CSS, and Scratch.`,
   },
+  {
+    title: `Work Experience`,
+    description: `The past summer 2020, I had a wonderful time interning at
+    Amazon Web Services on the Wallaby Team. I had an amazing time getting
+    to know my mentor and my manager and couldn't have made it through without
+    them. I also learned a lot about AWS while independently working on my 
+    intern project :)`
+  }
 ]
 
 function FactList() {
