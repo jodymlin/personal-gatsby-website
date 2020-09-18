@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Container, Typography, Fab, Zoom } from "@material-ui/core"
+import { Container, Link, Typography, Fab, Zoom } from "@material-ui/core"
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp"
 import { makeStyles } from "@material-ui/core/styles"
 import useScrollTrigger from "@material-ui/core/useScrollTrigger"
@@ -13,8 +13,17 @@ const useScrollTopStyles = makeStyles(theme => ({
     position: "fixed",
     bottom: theme.spacing(2),
     right: theme.spacing(2),
-  },
+  }
 }))
+
+const handleClick = event => {
+  const anchor = (event.target.ownerDocument || document).querySelector(
+    "#back-to-top-anchor"
+  )
+  if (anchor) {
+    anchor.scrollIntoView({ behavior: "smooth", block: "center" })
+  }
+}
 
 function ScrollTop(props) {
   const { children, window } = props
@@ -26,14 +35,7 @@ function ScrollTop(props) {
     threshold: 100,
   })
 
-  const handleClick = event => {
-    const anchor = (event.target.ownerDocument || document).querySelector(
-      "#back-to-top-anchor"
-    )
-    if (anchor) {
-      anchor.scrollIntoView({ behavior: "smooth", block: "center" })
-    }
-  }
+
 
   return (
     <Zoom in={trigger}>
@@ -53,6 +55,10 @@ const useTravelStyles = makeStyles(theme => ({
   caption: {
     padding: theme.spacing(3, 0),
   },
+  bottomText: {
+    lineHeight: '3'
+  }
+  
 }))
 
 function Travel(props) {
@@ -74,6 +80,12 @@ function Travel(props) {
           <KeyboardArrowUpIcon style={{ color: "white" }} />
         </Fab>
       </ScrollTop>
+      <Link onClick={handleClick} >
+        <Typography align='center' className={classes.bottomText}>
+          Back to Top
+        </Typography>
+      </Link>
+      
     </HeaderFooter>
   )
 }

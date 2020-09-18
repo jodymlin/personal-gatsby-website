@@ -26,7 +26,9 @@ const usePhotoListStyles = makeStyles(theme => ({
   dialogContent: {
     flex: "auto",
     padding: 0,
-    maxWidth: "500px",
+    maxWidth: "800px", // same width as pic
+    maxHeight: '90%',
+    overflow: 'hidden'
   },
   pic: {
     margin: "auto",
@@ -38,6 +40,10 @@ const usePhotoListStyles = makeStyles(theme => ({
   blurb: {
     margin: theme.spacing(0, 0, 4, 0),
   },
+  modalPic: {
+      maxWidth: '800px',
+      margin: 'auto'
+  }
 }))
 
 function GridItemAndImageModal({ node, ...props }) {
@@ -53,10 +59,10 @@ function GridItemAndImageModal({ node, ...props }) {
 
   return (
     <>
-      <Grid item xs={12} sm={6} key={node.base} {...props}>
+      <Grid role='grid' item xs={12} sm={6} key={node.base} {...props}>
         <div
           className={classes.picWrapper}
-          role="button"
+          role="gridcell"
           tabIndex={0}
           onClick={handleOpen}
           onKeyDown={handleOpen}
@@ -73,6 +79,7 @@ function GridItemAndImageModal({ node, ...props }) {
       <Modal
         aria-labelledby="travel-image"
         aria-describedby={node.base.split(".")[0]}
+        disableRestoreFocus
         className={classes.modal}
         open={open}
         onClose={handleClose}
@@ -86,9 +93,8 @@ function GridItemAndImageModal({ node, ...props }) {
             <Img
               fluid={node.childImageSharp.fluid}
               alt={node.base.split(".")[0]}
-              style={{ width: "100%", maxHeight: "80%" }}
               justify="center"
-              className={classes.pic}
+              className={classes.modalPic}
             />
           </Fade>
         </DialogContent>
