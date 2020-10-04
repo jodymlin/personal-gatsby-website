@@ -51,6 +51,7 @@ class ButtonBar extends React.Component {
           Projects+More!
         </MenuButton>
         <MenuButton to={"/travel"}>Travel</MenuButton>
+        <MenuButton to={"/writing"}>Writing</MenuButton>
       </>
     )
   }

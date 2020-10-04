@@ -55,9 +55,6 @@ function MenuBar({ classes }) {
             <Typography variant="h6">Jody Lin</Typography>
           </Link>
           <div className={classes.desktopMenu}>
-            {/* <Button>About</Button>
-                    <Button>Resume</Button>
-                    <Button>Projects+More!</Button> */}
             <ButtonBar />
           </div>
           <div className={classes.mobileBtn}>

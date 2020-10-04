@@ -29,9 +29,9 @@ function HeaderFooter({ children, ...props }) {
       <CssBaseline />
       <Helmet>
         <link
-          href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap"
+          href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap"
           rel="stylesheet"
-        ></link>
+        />
         <title>Jody Lin</title>
       </Helmet>
       <MenuBar {...props} />

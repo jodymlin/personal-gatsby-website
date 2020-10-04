@@ -27,8 +27,8 @@ const usePhotoListStyles = makeStyles(theme => ({
     flex: "auto",
     padding: 0,
     maxWidth: "800px", // same width as pic
-    maxHeight: '90%',
-    overflow: 'hidden'
+    maxHeight: "90%",
+    overflow: "hidden",
   },
   pic: {
     margin: "auto",
@@ -41,9 +41,9 @@ const usePhotoListStyles = makeStyles(theme => ({
     margin: theme.spacing(0, 0, 4, 0),
   },
   modalPic: {
-      maxWidth: '800px',
-      margin: 'auto'
-  }
+    maxWidth: "800px",
+    margin: "auto",
+  },
 }))
 
 function GridItemAndImageModal({ node, ...props }) {
@@ -59,7 +59,7 @@ function GridItemAndImageModal({ node, ...props }) {
 
   return (
     <>
-      <Grid role='grid' item xs={12} sm={6} key={node.base} {...props}>
+      <Grid role="grid" item xs={12} sm={6} key={node.base} {...props}>
         <div
           className={classes.picWrapper}
           role="gridcell"

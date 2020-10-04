@@ -32,8 +32,8 @@ const facts = [
     Amazon Web Services on the Wallaby Team. I had an amazing time getting
     to know my mentor and my manager and couldn't have made it through without
     them. I also learned a lot about AWS while independently working on my 
-    intern project :)`
-  }
+    intern project :)`,
+  },
 ]
 
 function FactList() {
