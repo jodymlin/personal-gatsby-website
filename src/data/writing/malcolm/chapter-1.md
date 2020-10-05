@@ -49,7 +49,7 @@ Jisoo felt her heart stop. “Wait what?”
 
 “His mother just posted on his page. Sorry Jisoo.”
 
-For a moment Jisoo entertained the idea the Gena was pranking her. Holding her phone against her ear with her shoulder, she ran to her laptop and pulled up the post. Underneath was a photo of Chase from his last track meet, holding up a second-place medal next to his face.
+For a moment Jisoo entertained the idea that Gena was pranking her. Holding her phone against her ear with her shoulder, she ran to her laptop and pulled up the post. Underneath was a photo of Chase from his last track meet, holding up a second-place medal next to his face.
 
 “You still there Jisoo?” Gena said through the phone.
 
@@ -75,7 +75,7 @@ It was overcast when Vance pulled his used maroon Honda Civic into the Bridge Wo
 
 Vance’s spot was sandwiched between Chase’s and the curb. Normally the squeeze was tight since Chase drove a giant red pick-up truck and parked like a blind man. Vance of course had to deal with it and find a way to squeeze in since the last guy who grazed Chase’s truck ended up with a black-eye. Of course, the school never punished Chase because they couldn’t prove it, but he undeniably did it.
 
-Just as he got out of the car, grabbing his backpack and bag full rice ball orders, another small car pulled up on the other side of Chase’s spot. He had never noticed it much before since Chase’s truck blocked everything like a wall, but he recognized the driver as Gena Baek, one of the students in his Macro-Econ class.
+Just as he got out of the car, grabbing his backpack and bag full of rice ball orders, another small car pulled up on the other side of Chase’s spot. He had never noticed it much before since Chase’s truck blocked everything like a wall, but he recognized the driver as Gena Baek, one of the students in his Macro-Econ class.
 
 She was tall with shoulder length, highlighted hair and when she stepped out of the car, Vance felt himself shrink a little. She carried the appearance of a Korean singer, which she might as well have been since she could sing like one, and Vance felt slightly awkward standing near her. He was the fat kid that sold rice balls at school. She was the girl who famously rejected Grant Davis, Bridge Wood’s football captain, in front of the entire school.
 
@@ -117,7 +117,7 @@ Vance let the rice balls drop back into his bag, trying to not outwardly cringe.
 
 He glanced down at his watch and realized that he had two more minutes to get to class. Slinging his bag of rice balls onto his shoulder, he locked his car and headed off.
 
-As passed through the main quad, which was beside the main office, he noticed a police car pull up to the front of the school. Two officers stepped out.
+As he passed through the main quad, which was beside the main office, he noticed a police car pull up to the front of the school. Two officers stepped out.
 
 Half panicked by the sight of the police and the thought of being late to class, Vance hurried his steps. He wondered how much worse his day could get.
 
@@ -185,17 +185,17 @@ A few people had already approached her that morning and asked how she was doing
 
 She had called Mrs. Albridge herself and asked what had happened to Chase, but she only managed to reach her answering machine. Chase’s older brother was out of the country and she had no way of reaching him. She was in the dark just like everyone else.
 
-Her phone lit up on her desk and she could see that someone had texted her. Seeing that Ms. Sun was pre-occupied checking emails on her computer, Jisoo took the liberty to scoot her phone behind her pencil pouch and unlocked it.
+Her phone lit up on her desk and she could see that someone had texted her. Seeing that Ms. Sun was pre-occupied checking emails on her computer, Jisoo took the liberty to scoot her phone behind her pencil pouch and unlock it.
 
-_Sorry about Chase. Wanna meet at lunch and talk?_
+_You doing alright? Wanna meet at lunch and talk?_
 
 It was from Grant Davis, Chase’s best friend who also happened to be one of the people Jisoo hated the most. He was charming and was the captain of the football team, but Jisoo knew him well enough to know that there was more to him than that.
 
 _Sorry. Got plans already._ She responded before promptly shutting off her phone and dropping it into her backpack.
 
-Her hand instinctively reached up to her necklace that Chase had given her hung. On the chain hung a small silver ring with three small engraved hearts that Chase had given her on her birthday. He had a matching ring that he wore as well, but he often kept it in his pocket to avoid being made fun of by his friends.
+Her hand instinctively reached up to where the necklace that Chase had given her hung. On the chain hung a small silver ring with three small engraved hearts that Chase had given her on her birthday. He had a matching ring that he wore as well, but he often kept it in his pocket to avoid being made fun of by his friends.
 
-She sat up at Ms. Sun took the front of the classroom. Her usual black hair was now laced with blonde highlights and there seemed to be a vigor in her face. Ms. Sun was one of the youngest teachers in the school (Jisoo guessed around thirty) and after being recently wed, she approached everything with an eager energy that would drain any normal human being. Today was no exception.
+She sat up as Ms. Sun took to the front of the classroom. Her usual black hair was now laced with blonde highlights and there seemed to be a vigor in her face. Ms. Sun was one of the youngest teachers in the school (Jisoo guessed around thirty) and after being recently wed, she approached everything with an eager energy that would drain any normal human being. Today was no exception.
 
 “Welcome back everyone! I hope everyone rested well over the break. I know I did. My husband and I went to the spa and it was _amazing_. Now I understand that things happened recently that might be tough for a few of you,” her eyes passed over Jisoo, “but I am here to talk to if you need it. All of the counselors are open as well, but seeing that I see you guys more, I can be a resource. But regardless, we still need to keep driving forward because we got our AP exam coming up in a few months!”
 
@@ -203,7 +203,7 @@ She clicked forward in her slideshow which was decked out with random biology me
 
 “Alright now I need you guys to pull out your lab notebooks and grab a Chromebook. We’ll be doing a minilab on genetic inheritance as an intro into our unit.”
 
-A low grown emitted across the tables and people began shuffling around their bags. The thought of another webquest made the day seem just a little bleaker. Jisoo reached into her bag and realized her notebook wasn’t there. Quietly standing up, she made her way to the front of the classroom to Ms. Sun’s desk.
+A low groan emitted across the tables and people began shuffling around their bags. The thought of another webquest made the day seem just a little bleaker. Jisoo reached into her bag and realized her notebook wasn’t there. Quietly standing up, she made her way to the front of the classroom to Ms. Sun’s desk.
 
 “My notebook is in my locker. May I go grab it real quick?”
 

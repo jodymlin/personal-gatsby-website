@@ -21,7 +21,7 @@ Another flash exploded. Its pure white light was brighter than the sun. I fell b
 
 Mr. H. and the rest of the class seemed unaffected. Instead, they were gaping down at where I lay on the floor. I got back up, shaking.
 
-    More bright lights flashed in a great display of blinding fireworks. I tried to shield my eyes, but the light bore right through my hands and eyelids. It faded away and I found myself huddling down, covering my face.
+More bright lights flashed in a great display of blinding fireworks. I tried to shield my eyes, but the light bore right through my hands and eyelids. It faded away and I found myself huddling down, covering my face.
 
 Mr. H’s eyes were wide. “Alexa, please take Charlotte to the nurse.”
 

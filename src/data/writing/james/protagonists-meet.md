@@ -96,11 +96,11 @@ I spring forward, swinging my arm towards her head. At the same time, she dives 
 
 She rolls sideways, my blade hitting the ground inches from her face. She stabs upwards with her blade at my stomach and I bring down my other elbow to block it. Then she pulls up her knee and kicks my abdomen, sending me stumbling backwards.
 
-She pulls back her legs and rolls backwards over her shoulder, landing in an upright stance. Her face is twisted in a mad look of concentration and focus. Sweat beads up on her forehead and she chest expands rapidly as she pants. We charge forward.
+She pulls back her legs and rolls backwards over her shoulder, landing in an upright stance. Her face is twisted in a mad look of concentration and focus. Sweat beads up on her forehead and her chest expands rapidly as she pants. We charge forward.
 
-She leaps and swings a fist through the air, I duck and in turn swing my knife across her abdomen, hearing the fabric in her shirt tear. A small cry escapes her throat and her brows furrow in pain. I throw another punch, but she nimbly spins backwards to avoid the blow and brings up her leg kicking me in the side of the head.
+She leaps and swings a fist through the air, I duck and in turn swing my knife across her abdomen, hearing the fabric in her shirt tear. A small cry escapes her throat and her brows furrow in pain. I throw another punch, but she nimbly spins backwards to avoid the blow and swings a heavy kick into the side of my head.
 
-I’m butted to the side and let myself fall to the ground, immediately tucking and rolling, letting my momentum bring my back up to my feet. The girl puts her hand to her stomach and the pulls it away, glancing down at the red blood on her fingers. Her eyes snap back to me and she crouches down back into a fighting stance.
+I’m butted to the side and let myself fall to the ground, immediately tucking and rolling, letting my momentum bring me back up to my feet. The girl puts her hand to her stomach and the pulls it away, glancing down at the red blood on her fingers. Her eyes snap back to me and she crouches down back into a fighting stance.
 
 _Not gonna give up are you?_ I nearly murmur out loud.
 
@@ -130,7 +130,7 @@ Realizing my dagger is still in my hand, I swiftly slide it back into its sheath
 
 I raise my free hand and place two fingers gently against her temple. The General didn’t specifically ask me to search her memories before finishing her off, but it’s part of the routine. I do this to everyone. Plus my profits generally raise when I can provide more information about my victim’s associates. It only helps me.
 
-I take a deep breath and begin reaching out with my mind. It gently probes along the edges her conscience before slipping in. The sensation is like diving into a deep lake of water. Suddenly I see memories swarm before my eyes, each specific moment flying by in a fast blur. I see the faces of loving family and the smiles of friends from the general’s legion. Conversations about quests and heroism float through my brain, like strange echoes in my head. I memory floats by and my conscience grabs it, opening it up to my mind.
+I take a deep breath and begin reaching out with my mind. It gently probes along the edges her conscience before slipping in. The sensation is like diving into a deep lake of water. Suddenly I see memories swarm before my eyes, each specific moment flying by in a fast blur. I see the faces of loving family and the smiles of friends from the general’s legion. Conversations about quests and heroism float through my brain, like strange echoes in my head. A memory floats by and my conscience grabs it, opening it up to my mind.
 
 _“Momma! Momma!” A tiny girl with a high voice screams. She’s running down a grassy hill, her black hair billowing behind her head. She’s laughing wildly, her face set in a wide smile. She’s no more than three or four years old, telling by her tiny size and wobbly step. The sun shines goldenly and small wifty clouds float in the blue sky. At the bottom of the hill stands a tall, lean figure of a woman with the same black hair and blue-green eyes as the little girl. Her face grins in an elegant smile, the look of unconditional love radiating from her eyes._
 
@@ -212,7 +212,7 @@ _Everything seems to go by in a blur. One moment the girl is being swarmed by ot
 
 _At first I think she’ll win and crush her opponents, but then I see the move that she doesn’t see coming from behind her. She suddenly cries out as the sword stabs her from behind, her back arching into a sharp curve. Time seems to stop as the attacks suddenly cease and I watch in horror as her sword falls out of her hand and her mouth opens in a silent scream. The man who had stabbed her, yanks his sword out, and she let’s out another cry, her hands reaching for the open wound on her stomach._
 
-_Then out of the blue, another blade is planted in her abdomen and ripped out. She collapses facedown onto the ground, her breathing becoming quick and shallow as she lets out a cough from her already cut lips. Her cheek rests softly on the ground and I see her fist curl over the dirt as she tries to handle the pain. _
+_Then out of the blue, another blade is planted in her abdomen and ripped out. She collapses facedown onto the ground, her breathing becoming quick and shallow as she lets out a cough from her already cut lips. Her cheek rests softly on the ground and I see her fist curl over the dirt as she tries to handle the pain._
 
 _Straining, she lifts up and turns her head to the soldiers, her eyes searching. They stop and rest on Eric, the look of utter betrayal in her eyes. She coughs again, this time blood coming from her trembling lips. She sucks in a trembling breath, her chest shaking as she sputters out more blood._
 
@@ -242,7 +242,7 @@ _Kill. Her._
 
 But I can’t. I open my hands and drop her to the ground, where she crumples and lies, gasping for air, her raven hair falling over her face. She lets out a shaking cough and reaches down to her broken leg in obvious pain.
 
-I stand where I am, my arms still outstretched, unmoving. I take a deep breaths, my hands trembling, and let the drop to my sides. A drop of sweat rolls down my forehead and onto the edge of my nose.
+I stand where I am, my arms still outstretched, unmoving. I take deep breaths, my hands trembling, and let my arms drop to my sides. A drop of sweat rolls down onto the edge of my nose.
 
 Another rattling cough comes from below and I look down at the girl, wondering if I should have let her die. She wheezes for air and slowly turns her head to look up at me, red veins lace around her blue-green irises. A mixture of curiosity and venom in her eyes makes her unrecognizable from the girl I had seen sitting alone in the bar just several minutes ago. She uses an arm to prop herself up as she stares at me.
 
