@@ -154,7 +154,7 @@ Mark steps up with his hands shoved into his pockets. “Thats me.” The man ta
 
 Mark shrugs off his arm. “Nice to meet you.”
 
-One by one the kids are paired off with some person. Kelli gets the oldest person, who is a woman who looks like she is in her mid sixties. Kelli just smile her sweet smile and stands next to her.
+One by one the kids are paired off with some person. Kelli gets the oldest person, who is a woman who looks like she is in her mid sixties. Kelli just smiles her sweet smile and stands next to her.
 
 Then it’s just Baker, Kevin and I left. There are two tall lanky looking...twins left. They look like mirror images. They stand the same way and hold their tablets both with the same hand. And it doesn’t help that their outfits are the same either. And then of course, Carol Byrd. And I just have a gut feeling of who I’m going to get.
 

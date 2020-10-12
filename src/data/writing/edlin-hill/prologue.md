@@ -17,7 +17,7 @@ Biliat stopped his pacing. “I don’t know.”
 
 It was quiet for a while before Ducal spoke up, “We could summon The Mirror Minds.”
 
-“No.” Biliat said immediately. “That would be too risky. The Mirror Mind could turn on us and destroy our whole planet. Or even worse, they could wipe out the whole universe without trying. You know they travel through their sleep…or should I say dreams? They live two lives: One, on their home planet, and two, during their dreams on here. They live their normal life awake, but when they fall asleep,” Biliat wagged his finger, “When they fall asleep their dream takes them here where their dream becomes real life. It is no longer just a nightmare, it real. What they dream is fake on their planet, but once they live their dream here…it is very much real. They might conjure up some hideous beast and not even try… ”
+“No.” Biliat said immediately. “That would be too risky. The Mirror Mind could turn on us and destroy our whole planet. Or even worse, they could wipe out the whole universe without trying. You know they travel through their sleep…or should I say dreams? They live two lives: One, on their home planet, and two, during their dreams on here. They live their normal life awake, but when they fall asleep,” Biliat wagged his finger, “When they fall asleep their dream takes them here where their dream becomes real life. It is no longer just a nightmare, it's real. What they dream is fake on their planet, but once they live their dream here…it is very much real. They might conjure up some hideous beast and not even try… ”
 
 “Those are mere myths. And we don’t have any more time for those, young man. I shall send for the Summoning to happen tonight.”
 

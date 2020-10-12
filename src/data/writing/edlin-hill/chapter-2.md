@@ -11,7 +11,7 @@ I was falling towards the ground above a great expanse of forest, in the night. 
 
 I blinked trying to comprehend what I saw. I reached over and quickly pinched myself. Wake up. I thought. _Wake up._ Nothing happened. My eyes widened as I came closer to the ground. I was going to die. I closed my eyes in fear.
 
-_Whoosh!!_ I quick burst of air was shot up from under me and my momentum slowed down. I opened my eyes and saw that I was hovering 2 or 3 feet above the pit. The man who had been staring up at me stood there nodding his head. He walked around as if inspecting a new species and finally stopped in front of me.
+_Whoosh!!_ A quick burst of air was shot up from under me and my momentum slowed down. I opened my eyes and saw that I was hovering 2 or 3 feet above the pit. The man who had been staring up at me stood there nodding his head. He walked around as if inspecting a new species and finally stopped in front of me.
 
 He spoke in a deep soft voice, “Welcome Mirror Mind. Welcome. You have been summoned as the Fourteenth Mirror Mind in Edlin.”
 
@@ -129,7 +129,7 @@ I stayed in the air at the edge of the cliff and looked behind me just in case h
 
 I turned back to him and he was still gazing at me with searching eyes. I cleared my throat, “Umm…what are you doing?”
 
-He gazed for another second and sighed, hanging his head low. “Do feel any fatigue? Are you tired? Or are you fine?”
+He gazed for another second and sighed, hanging his head low. “Do feel any fatigue? Are you tired? Are you fine?”
 
 I wasn’t sure how to respond. I didn’t feel tired at all and if anything was still a bit shaken from the falling boulder thingy. I thought for a moment and finally spoke. “No.”
 

@@ -11,7 +11,7 @@ I wake up on the couch. Weird. I don’t know why I slept there. The sunlight st
 
 I chuckle to myself and I get up to flip it off. Then it all comes back to me.
 
-“Darn....” I rub my eyes and run my fingers through my hair. My watch reads 7:30, and I have absolutely no idea what I’m supposed to do. Do I call the police and tell them that I’m now an orphan? Do I call Yasaman? Should I tell the Mr. Lin, the neighbor next door? Does Dad’s girlfriend know? Wait. Dad doesn’t have a girlfriend.Shoot.
+“Darn....” I rub my eyes and run my fingers through my hair. My watch reads 7:30, and I have absolutely no idea what I’m supposed to do. Do I call the police and tell them that I’m now an orphan? Do I call Yasaman? Should I tell the Mr. Lin, the neighbor next door? Does Dad’s girlfriend know? Wait. Dad doesn’t have a girlfriend. Shoot.
 
 Despite everything that’s going on, not a single tear comes. My eyes stay dry. Dad was like a good friend to me, not really a dad. He was rarely there and when he was, he was busy with work. Maybe that’s the reason why.
 
@@ -165,7 +165,7 @@ Kate, with the bright blue hair, reaches over and pokes Pat in the stomach.
 
 Pat jerks up and slaps Kate’s hand away, laughing her head off. Tears are streaming down her cheeks and she’s wearing the world’s largest smile. Kate guffaws with her and the quiet girl, who I think is Lily, gives a tiny smile. She’s holding a completely solved rubik's cube. She scrambles it up with her nimble fingers and begins to solve it again without looking.
 
-On the same bench, another girl with curly hair sits next to another boy who dresses like a gangster. His clothes are torn and he sags grey pants that have a heavy chain on them. His brown hair needs to be cut and his face has lots of acne. He’s one person my dad would definitely _not_ want me to date. Not like I’m dating anyone right now.
+On the same bench, another girl with curly hair sits next to another boy who dresses like a gangster. His clothes are torn and he sags a pair grey pants with a heavy chain on them. His brown hair needs to be cut and his face has lots of acne. He’s one person my dad would definitely _not_ want me to date. Not like I’m dating anyone right now.
 
 I lean over to Kevin, who is staring at Hot-Statue-look-alike, and ask, “Who’re those kids?”
 
@@ -271,7 +271,7 @@ Sergeant Heath pauses for a moment, deciding what to say. “You children all sh
 
 “WHAT??!!” The entire trucks seems to scream. My mouth drops open. I see Keith across the room stand up with his hands balled up in fists at his side.
 
-“Ain’t nobody gonna take me BLEEP BLEEP BLEEP!!!” I try to ignore to his attempted potty mouth, but he is bellowing at the top of his lungs so I try to concentrate on the floor instead.
+“Ain’t nobody gonna take me BLEEP BLEEP BLEEP!!!” I try to ignore to his potty mouth, but he is bellowing at the top of his lungs so I try to concentrate on the floor instead.
 
 He goes on shouting “bleeps” for what seems like an eternity, and I look over at Baker who raises an eyebrow at me.
 
